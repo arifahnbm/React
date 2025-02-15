@@ -1,13 +1,5 @@
 import React from "react"
-
-const Button = (props) => {
-  const {textcolor, children} = props;
-  return (
-    <button className={`h-10 px-6 font-semibold rounded-md ${props.color} ${textcolor}`} type="submit">
-        {children}
-    </button>
-  )
-}
+import Button from "./components/Elements/Button"
 
 function App() {
   return (
